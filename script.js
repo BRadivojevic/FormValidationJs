@@ -34,6 +34,7 @@ let config = {
 
 let validator = new Validator(config);
 
+//show/hide button functionality
 const passwordField = document.getElementById('password');
 const confirmPasswordField = document.getElementById('confirmPassword');
 const showPasswordIcon = document.getElementById('showPassword');
